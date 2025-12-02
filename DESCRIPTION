@@ -1,0 +1,18 @@
+Package: drawsf
+Type: Package
+Title: Interactively draw 'sf' geometries
+Version: 0.1.0
+Description: Draw shapes, lines, and points in an interactive 'shiny' app
+    and return their geometries as 'sf' objects. Simple wrapper to facilitate
+    manually building geometries and boundary boxes.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Authors@R: 
+    person("Jonas", "Lieth", , "jslth@outlook.com", role = c("aut", "cre", "cph"))
+Imports: 
+    leaflet,
+    leaflet.extras,
+    sf,
+    shiny
+RoxygenNote: 7.3.2
