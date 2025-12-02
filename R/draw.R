@@ -8,6 +8,8 @@
 #' \code{Point}, \code{LineString}, and \code{Polygon}. If only a single
 #' geometry type is drawn, returns a flat \code{sfc} object.
 #'
+#' @export
+#'
 #' @examples
 #' if (interactive()) {
 #'   draw()

@@ -1,3 +1,5 @@
+#' @rdname drawsf_ui
+#' @export
 drawsf_server <- function(input, output, session) {
   shapes <- shiny::reactiveVal()
 

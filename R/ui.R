@@ -8,6 +8,8 @@
 #' @returns \code{drawsf_ui} returns the app UI, \code{drawsf_server} returns
 #' nothing useful and is only used for its shiny functionality.
 #'
+#' @export
+#'
 #' @examples
 #' shiny::shinyApp(drawsf_ui, drawsf_server)
 drawsf_ui <- function() {
