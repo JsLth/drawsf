@@ -4,7 +4,12 @@
 \alias{draw}
 \title{Draw shapes}
 \usage{
-draw()
+draw(geom = NULL)
+}
+\arguments{
+\item{geom}{An object of class \code{sf} or \code{sfc}. The geometry is
+imported to the app and can be edited. Imported geometries are shown with
+black outlines while newly created geometries are shown in blue outlines.}
 }
 \value{
 If multiple geometry types are drawn (points / lines / polygons),
